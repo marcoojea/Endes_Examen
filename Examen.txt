@@ -1,0 +1,15 @@
+AQUI VA LAS CLASES DE PRUEBAS .java
+
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class SelectorDeRegalosTest {
+    @Test
+    void selectorDeRegalos (){
+        assertEquals("Juguete de construcción", SelectorDeRegalos.seleccionarRegalo (120,10));
+        assertEquals("Libro de aventuras",SelectorDeRegalos.seleccionarRegalo(45,18));
+    }
+}
+
